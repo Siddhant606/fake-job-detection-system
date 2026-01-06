@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+.app-container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    color: #1f2937;
+}
+
+header p {
+    color: #6b7280;
+    margin-top: 8px;
+}
+
+main {
+    margin-top: 30px;
+}
+
+textarea {
+    width: 100%;
+    height: 160px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    font-size: 15px;
+    resize: none;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+#resultBox {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #f9fafb;
+    border-left: 6px solid #2563eb;
+}
+
+#prediction {
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #9ca3af;
+}
